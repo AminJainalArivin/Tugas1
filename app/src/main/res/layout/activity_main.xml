@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="BossPaint"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jl. Cipta Karya, Tuah Karya, Kec. Tampan, Kota Pekanbaru, Riau"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesanan Cat"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:id="@+id/rgBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbCatAnti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cat Anti Bocor"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+
+        <RadioButton
+            android:id="@+id/rbCatMinyak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cat Minyak"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbCatTembok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cat Tembok"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+    </RadioGroup>
+    <EditText
+        android:id="@+id/etJumlahBeli"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Beli"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:inputType="numberDecimal"
+        />
+
+
+    <RadioButton
+        android:id="@+id/rbMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEMBERSHIP 5%"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Total"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTA"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/tvNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnBersih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bersih"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
